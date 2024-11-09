@@ -30,7 +30,7 @@ const ContactUs = () => {
                 <div className={styles['contact-info']}>
                     <div>
                         <h2>Email</h2>
-                        <p>bhagwanbharose@gmail.com</p>
+                        <p>visionNet@gmail.com</p>
                     </div>
                     <div>
                         <h2>Phone Number</h2>

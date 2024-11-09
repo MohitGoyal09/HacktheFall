@@ -27,12 +27,7 @@ const Navbar = () => {
 						Our Products
 					</NavLink>
 				</li>
-				<li className={styles['link-item']}>
-					<NavLink className={styles['link-item__link']} to='#demo' smooth
-					activeClassName={styles['active']}>
-						LIVE Demo
-					</NavLink>
-				</li>
+				
 				<li className={styles['link-item']}>
 					<NavLink className={styles['link-item__link']} to='#contact-us' smooth
 					activeClassName={styles['active']}>
