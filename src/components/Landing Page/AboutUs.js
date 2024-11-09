@@ -8,9 +8,9 @@ const AboutUs = () => {
 				</div>
 				<div className={styles['container']}>
 					<h1 className={styles['title']}>What is</h1>
-					<h1 className={`${styles['title']} ${styles['dark']}`}>Third Eye</h1>
+					<h1 className={`${styles['title']} ${styles['dark']}`}>Vision Net</h1>
 					<p className={styles['text']}>
-					Third eye is a cutting-edge security protocol that uses deep learning and artificial intelligence to track motor vehicles via a modern CCTV network.
+					Vision Net is a cutting-edge security protocol that uses deep learning and artificial intelligence to track motor vehicles via a modern CCTV network.
 
 We don't simply watch their movements; we also serve as a GPS for the massive network of traffic that passes through our city every day, allowing concerned authorities to keep an eye on these cars.
 					</p>
