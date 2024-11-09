@@ -32,7 +32,7 @@ To set up Vision Net locally, follow these steps:
 
    ```bash
    git clone https://github.com/MohitGoyal09/HacktheFall.git
-   cd vision-net
+   cd HacktheFall
    ```
 
 2. **Install Dependencies**:
@@ -92,6 +92,6 @@ Vision Net is open-source software licensed under the MIT License. See the [LICE
 ---
 
 ### Enjoy Real-Time Tracking with Vision Net! 🚗📍
-=======
+
 
 
