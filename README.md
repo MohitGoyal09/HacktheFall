@@ -1,23 +1,93 @@
-# Welcome to Third-Eye
+# Vision Net
 
-#### What is Third Eye?
-With just one system that is simple to use and intuitive for both the police authority and the public, _**Third eye**_ is a distributed cutting-edge security protocol that uses deep learning and artificial intelligence to track motor vehicles and Criminals via a modern CCTV network using Automated License Plate Recognition and Facial Recognition.
+**Vision Net** is a cutting-edge security protocol designed to revolutionize vehicle tracking and surveillance. By leveraging advanced deep learning and artificial intelligence techniques, Vision Net identifies and tracks motor vehicles across a CCTV network and maps their locations in real time using the powerful **Mapbox API**. This project provides an effective solution for monitoring vehicle movements, enhancing public safety, and supporting security operations.
 
-Visit The [Third Eye Website](https://third-eye.vercel.app/) to get the feel of our security system.
+## 📌 Features
 
-This app was submitted as a part of the final presentation given by our team ([Rinav Gupta](https://github.com/Rinav07),[Vedansh Arun](https://github.com/VedanshArun) and [Kartik Bagri](https://github.com/kartikbagri)) in the country's first, one of a kind CyberSecurity Hackathon - _**Hackmanthan**_ organised by Chhattisgarh Police in collaboration with IIIT Naya Raipur.
+- **Real-Time Vehicle Tracking**: Utilizes deep learning models to detect and track motor vehicles through live CCTV footage.
+- **Location Mapping with Mapbox API**: Displays vehicle locations on an interactive Mapbox map, providing a clear, real-time overview.
+- **Efficient Data Processing**: Uses optimized AI models for high-speed processing and minimal lag.
+- **Enhanced Security Protocol**: Ideal for law enforcement, traffic monitoring, and security agencies to improve response times and situational awareness.
 
-Our team secured the First Position in this Hackathon and were awarded a cash prize of 1100$ 
+## 🚀 How It Works
 
-View our [Final's Presenation](https://www.canva.com/design/DAFE55ekfR8/egzMBBoukxmzr5wuqyX5mw/view?utm_content=DAFE55ekfR8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) here.
+1. **Vehicle Detection**: Vision Net leverages trained deep learning models to analyze frames from CCTV footage and detect motor vehicles.
+2. **Tracking Across Frames**: Once identified, the vehicle is tracked across multiple CCTV cameras in the network, maintaining an accurate trail.
+3. **Mapping Vehicle Locations**: Using the Mapbox API, Vision Net maps vehicle locations based on their real-time coordinates, displaying their movement on an interactive map interface.
 
-## Third-Eye in News
+## 🛠️ Technologies Used
 
-Third-Eye was featured in multiple newspapers and articles on news websites<br>
+- **Deep Learning & Artificial Intelligence**: For vehicle detection and tracking in CCTV footage.
+- **OpenCV**: To handle video processing and image recognition tasks.
+- **Mapbox API**: For mapping and displaying the real-time locations of tracked vehicles.
+- **Flask** (or any chosen backend): For server-side processing and API integrations.
+- **JavaScript & React**: For front-end UI and real-time map visualization.
 
-<img width="400" alt="WhatsApp Image 2022-06-30 at 2 08 57 PM" src="https://user-images.githubusercontent.com/77344616/177614533-f6ac56eb-1004-4c80-946e-f23c438d350d.jpeg">
-<img width="400" alt="Screenshot 2022-07-06 232938" src="https://user-images.githubusercontent.com/77344616/177614543-dde524b5-0d76-47ac-8732-29c479a42df6.png">
+## 📦 Installation
 
-Link to [Jantaserishta website](https://jantaserishta.com/local/chhattisgarh/hackmanthan-engineering-students-model-gets-first-prize-1339321) featuring Third-eye 
+To set up Vision Net locally, follow these steps:
 
-[![Youtube Video](https://img.youtube.com/vi/Lijxc6lu2zA/0.jpg)](https://www.youtube.com/watch?v=Lijxc6lu2zA)
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/MohitGoyal09/HacktheFall.git
+   cd vision-net
+   ```
+
+2. **Install Dependencies**:
+   - **Backend**:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   - **Frontend**:
+
+     ```bash
+     npm install
+     ```
+
+3. **Setup Mapbox API Key**:
+   - Sign up for [Mapbox](https://www.mapbox.com/) and obtain an API key.
+   - Add the API key to your environment variables or configuration file.
+
+4. **Run the Application**:
+   - **Backend**:
+
+     ```bash
+     python app.py
+     ```
+
+   - **Frontend**:
+
+     ```bash
+     npm run start
+     ```
+
+## ⚙️ Usage
+
+1. Access the live tracking interface via the provided URL.
+2. The map will display tracked vehicles as they are identified and located by Vision Net.
+3. Use the interface to zoom in/out, view real-time movements, and track specific vehicles.
+
+## 📚 Future Enhancements
+
+- **Historical Data Tracking**: Allow retrieval of past tracking data for analysis.
+- **Enhanced Analytics**: Add dashboards for insights on traffic patterns and behavior.
+- **Additional Camera Support**: Scale to support a wider CCTV network.
+- **Alerts and Notifications**: Set up real-time alerts for specific vehicle tracking scenarios.
+
+## 💻 Contributing
+
+We welcome contributions! To contribute to Vision Net:
+
+1. Fork the repository and create a new branch for your feature or bug fix.
+2. Submit a pull request with a clear description of your changes.
+
+## 📄 License
+
+Vision Net is open-source software licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+### Enjoy Real-Time Tracking with Vision Net! 🚗📍
