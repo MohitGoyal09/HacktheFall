@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Vision Net
 
 **Vision Net** is a cutting-edge security protocol designed to revolutionize vehicle tracking and surveillance. By leveraging advanced deep learning and artificial intelligence techniques, Vision Net identifies and tracks motor vehicles across a CCTV network and maps their locations in real time using the powerful **Mapbox API**. This project provides an effective solution for monitoring vehicle movements, enhancing public safety, and supporting security operations.
@@ -94,4 +94,4 @@ Vision Net is open-source software licensed under the MIT License. See the [LICE
 ### Enjoy Real-Time Tracking with Vision Net! 🚗📍
 =======
 
->>>>>>> 36f97d0e93988f96fe0dd0f6b1dc435393be10ad
+
